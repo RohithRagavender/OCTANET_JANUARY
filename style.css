@@ -1,0 +1,207 @@
+body {
+    background-image: url(./vintage-retro-camera-black-white-background-flat-lay.jpg);
+    background-size:contain;
+}
+
+.head {
+    background-color: transparent;
+    box-sizing: border-box;
+    width: 100%;
+    height: max-content;
+    cursor: pointer;
+    margin-top: 25px;
+    position: sticky;
+}
+
+.head h1:hover {
+    color: red;
+    transition: 1.5s;
+}
+
+.head h1 {
+    color: rgba(105, 91, 91, 0.5);
+    padding-right: 25px;
+    font-style: initial;
+    margin-left: 60px;
+    font-family: monospace;
+    font-weight: bold;
+    font-weight: bold;
+}
+
+.NAV ul,
+li,
+a {
+    display: inline-flex;
+    text-decoration: none;
+    padding: 8px;
+    float: right;
+    margin-top: -25px;
+    color: rgba(105, 91, 91, 0.5);
+    font-size: xx-large;
+    font-family: monospace;
+
+}
+
+.NAV a:hover {
+    color: red;
+    transition: 1.5s;
+}
+
+.rightside {
+    width: max-content;
+    background-color: transparent;
+    margin-top: 250px;
+    margin-left: 35px;
+    font-size: medium;
+    text-decoration: none;
+    justify-content: space-between;
+    letter-spacing: 1.5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    width: 85%;
+    line-height: 30px;
+    color: rgba(0, 0, 0, .4);
+}
+
+span {
+    color: blue;
+}
+
+.resume a {
+    background-color: red;
+    text-align: left;
+    margin-top: 15px;
+    margin-right: 690px;
+    border-radius: 15px;
+    position: absolute;
+}
+
+.resume a:hover {
+    color: black;
+    transition: 2s;
+}
+
+.resume a:hover::after {
+    transition: -2s;
+
+}
+
+.social {
+    background-color: transparent;
+  
+}
+
+.social a {
+    background-color: transparent;
+    width: 50px;
+    height:25px;
+    float: left;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.local {
+    animation-name:colorchange;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transition: 2s;
+    animation-delay: 1ms;
+}
+
+
+@keyframes colorchange {
+    0% {
+        color: rgb(18, 36, 198)
+    }
+
+    25% {
+        color: rgb(67, 65, 65);
+    }
+
+    50% {
+        color: rgb(255, 123, 0);
+    }
+
+    75% {
+        color: rgb(131, 79, 10);
+    }
+
+    100% {
+        color: rgb(17, 80, 158);
+    }
+}
+
+.bottom {
+    position: relative;
+    width: 250px;
+    padding-top: 45px;
+    top: 635px;
+    margin-left: 565px;
+}
+
+.bottom:hover{
+    color: black;
+}
+
+.bottom p {
+    color: cadetblue;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.container {
+    display: inline-flex;
+    width: 1200px;
+    height: 550px;
+    justify-content: space-evenly;
+    margin-left: -110px;
+}
+
+.container img {
+    position: relative;
+    top: 350px;
+    width: 450px;
+    height: fit-content;
+}
+
+#Features h1 {
+    margin-left: 650px;
+    position: relative;
+    top:350px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgba(218, 170, 28, 0.747);
+    width: fit-content;
+    height: fit-content;
+}
+
+.container2 {
+    display: inline-flex;
+    width: 100px;
+    height: 250px;
+    justify-content: space-evenly;
+    margin-left: -110px;
+
+}
+#Gallery {
+    margin-bottom:-120px;
+}
+
+#Gallery h1{
+    position:absolute;
+    top:1350px;
+    left: 900px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgba(242, 226, 6, 0.596);
+    width:fit-content;
+    height:fit-content;
+}
+
+.container2 img {
+    position: relative;
+    top: 350px;
+    left: 790px;
+    width: 450px;
+    height: fit-content;
+}
